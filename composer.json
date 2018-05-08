@@ -1,11 +1,11 @@
 {
-    "name": "famdirksen/laravel-model-encryption",
+    "name": "famdirksen/laravel-gdpr-registration",
     "type": "library",
-    "description": "Laravel package to encrypt model attributes",
+    "description": "",
     "keywords": [
         "Famdirksen"
     ],
-    "homepage": "https://github.com/Famdirksen/Laravel-Model-Encryption",
+    "homepage": "https://github.com/Famdirksen/Laravel-GDPR-Registration",
     "license": "MIT",
     "authors": [
         {
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Famdirksen\\LaravelModelEncryption\\": "src"
+            "Famdirksen\\LaravelGDPRRegistration\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Famdirksen\\LaravelModelEncryption\\": "tests"
+            "Famdirksen\\LaravelGDPRRegistration\\": "tests"
         }
     },
     "scripts": {
@@ -42,7 +42,7 @@
         },
         "laravel": {
             "providers": [
-                "Famdirksen\\LaravelModelEncryption\\LaravelModelEncryptionServiceProvider"
+                "Famdirksen\\LaravelGDPRRegistration\\LaravelGDPRRegistrationServiceProvider"
             ]
         }
     },
