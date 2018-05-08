@@ -6,7 +6,7 @@ use Tests\Framework\Migrate;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
-abstract class IntegrationTestCase extends TestCase
+abstract class GDPRTestCase extends TestCase
 {
     /**
      * @var Illuminate\Database\Capsule\Manager
