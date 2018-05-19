@@ -3,7 +3,6 @@
 namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use Tests\Framework\ModelEncryptionStub;
 
 class GDPRUnitTest extends TestCase
 {
